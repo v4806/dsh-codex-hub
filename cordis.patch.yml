@@ -1,5 +1,5 @@
-# dsh-codex-catalog bundle patch: inserts the Codex dispatch catalog UI row.
-# The `id`/`name` MUST match the package name (`dsh-codex-catalog`).
+# dsh-codex-hub bundle patch: inserts the Codex dispatch hub UI row.
+# The `id`/`name` MUST match the package name (`dsh-codex-hub`).
 - insert:
-    - id: dsh-codex-catalog
-      name: 'dsh-codex-catalog'
+    - id: dsh-codex-hub
+      name: 'dsh-codex-hub'

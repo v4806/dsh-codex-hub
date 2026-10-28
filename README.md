@@ -1,4 +1,4 @@
-# dsh-codex-catalog
+# dsh-codex-hub
 
 DSH 本地插件：在 DSH 中查看 Codex 子智能体派发记录、运行状态与对话，统一管理沙箱、模型和推理深度，并支持 CLI 自动更新与 Windows 系统代理同步。
 
