@@ -1,7 +1,7 @@
 {
   "name": "dsh-codex-catalog",
   "version": "0.2.1",
-  "description": "会话页头的 Codex 派发目录：下拉列表展示每次派发，点击打开对话窗口；插件详情页提供沙箱开关、CLI 自动更新与还原、自动网络代理、模型与推理深度选择。依赖官方 @deepseek-ai/dsh-subagent-codex 提供派发工具与日志镜像。",
+  "description": "在 DSH 中查看 Codex 子智能体派发记录、运行状态与对话，统一管理沙箱、模型和推理深度，并支持 CLI 自动更新与 Windows 系统代理同步。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -23,7 +23,14 @@
     "dsh-plugin",
     "codex",
     "subagent",
-    "catalog"
+    "catalog",
+    "派发记录",
+    "对话查看",
+    "沙箱",
+    "模型配置",
+    "推理深度",
+    "系统代理",
+    "cli更新"
   ],
   "license": "MIT",
   "author": "v4806",
