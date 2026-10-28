@@ -27,6 +27,7 @@
   ],
   "license": "MIT",
   "author": "v4806",
+  "icon": "./icon.svg",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
