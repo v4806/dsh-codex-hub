@@ -1,7 +1,7 @@
 {
   "name": "dsh-codex-catalog",
   "version": "0.2.1",
-  "description": "会话页头的 Codex 派发目录（子智能体式触发器 + 下拉列表），点击任一派发打开它的对话窗口；插件详情页提供 Codex 子智能体沙箱开关。依赖官方 @deepseek-ai/dsh-subagent-codex 提供派发工具与日志镜像，不可与旧插件 dsh-codex-fix 同时启用。",
+  "description": "会话页头的 Codex 派发目录：下拉列表展示每次派发，点击打开对话窗口；插件详情页提供沙箱开关、CLI 自动更新与还原、自动网络代理、模型与推理深度选择。依赖官方 @deepseek-ai/dsh-subagent-codex 提供派发工具与日志镜像。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
