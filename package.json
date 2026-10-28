@@ -1,0 +1,47 @@
+{
+  "name": "dsh-codex-catalog",
+  "version": "0.2.0",
+  "description": "会话页头的 Codex 派发目录（子智能体式触发器 + 下拉列表），点击任一派发打开它的对话窗口；插件详情页提供 Codex 子智能体沙箱开关。依赖官方 @deepseek-ai/dsh-subagent-codex 提供派发工具与日志镜像，不可与旧插件 dsh-codex-fix 同时启用。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "codex",
+    "subagent",
+    "catalog"
+  ],
+  "license": "MIT",
+  "author": "v4806",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-modules"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
